@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "johndoe",
+      "email": "johndoe@example.com",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "username": "janedoe",
+      "email": "janedoe@example.com",
+      "password": "password456"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "title": "React Web App",
+      "description": "A web application built with React",
+      "start_date": "2022-01-01",
+      "end_date": "2022-01-31",
+      "skills": ["React", "JavaScript", "HTML", "CSS"]
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "title": "Ruby on Rails API",
+      "description": "An API built with Ruby on Rails",
+      "start_date": "2022-02-01",
+      "end_date": "2022-02-28"
+    }
+  ]
+
+}
