@@ -13,7 +13,7 @@ function UserHome() {
     <>
     <div className='homeContainer'>
     <div className='currentJob'>
-    {userInfo ? (<h1> <span style={{color:'Green'}}>{userInfo}</span>, <br /></h1>):(<><h1>The Best<br /> Todo App <span className='access' onClick={()=>redirect('/auth')}>Get started</span></h1> 
+    {userInfo ? (<h1> <span style={{color:'Green'}}>{userInfo}</span>, <br /></h1>):(<><h1>The Best<br /> Todo App <span className='access' onClick={()=>redirect('/auth')}>Login Here</span></h1> 
     
     </>
     )}
