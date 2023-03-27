@@ -18,7 +18,11 @@
 - npm install
 - npm start
 - Open the app on your web browser at http://localhost:4000.
+
+
+## Deployment
 ```
+The project is deployed and accessible on this link https://react-todo-app-nine-phi.vercel.app/
 
 ## Usage
 - Upon landing on Home page click on `Get started`
