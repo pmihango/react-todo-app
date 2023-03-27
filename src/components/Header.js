@@ -22,7 +22,7 @@ function Header() {
     
     {userInfo ? ( <nav>
         <div className="navbar-logo">
-          <NavLink to="/">MyTodos </NavLink>
+          <NavLink to="/">MyTodosApp </NavLink>
         </div>
         
         <div className="navbar-links">
@@ -33,7 +33,7 @@ function Header() {
         </div>
         {/* This is the main header */}
       </nav>):(  <nav>     <div className="navbar-logo">
-          <NavLink to="/">Todo </NavLink>
+          <NavLink to="/">Todo</NavLink>
         </div> </nav> )}
     
     </>
