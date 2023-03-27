@@ -33,7 +33,7 @@ nav {
 
 .navbar-links a {
   margin: 0 10px;
-  color: #333;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: large;
 }
