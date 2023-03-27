@@ -24,8 +24,8 @@ function UserHome() {
     </div>
     <div  className='userSummary'>
         
-        {/* <p style={{marginTop:'80px'}}>With Todo, you can conquer your tasks<br /> with ease and embrace a more productive tomorrow </p> */}
-        {/* {userInfo ?(<h1><span style={{color:'green'}}>{userInfo}</span> <br /> {userLastName}</h1>):(<h1>Welcome to our Todo App<br /> Application</h1>)} */}
+        {/* <p style={{marginTop:'80px'}}>With Todo....<br /> You can plan your Todos </p> */}
+        {userInfo ?(<h1><span style={{color:'green'}}>{userInfo}</span> <br /> {userLastName}</h1>):(<h1>Welcome to our Todo App<br /> Application</h1>)}
         
     </div>
     </div>
