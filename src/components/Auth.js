@@ -41,7 +41,7 @@ const [error, setError] = useState('')
     <>
         <div className="login-form">
             <form action="" method='post' onSubmit={handleLogin}>
-            <h1 style={{textAlign:'center'}}>Welcome back! 🤝🏽</h1>
+            <h1 style={{textAlign:'center'}}>Welcome back!</h1>
             <div className="form-group">
             <label>Email</label>
         <input type="email" name="email" className="form-control"  id="" placeholder='email' value={email} onChange={e=>setEmail(e.target.value)}/>
