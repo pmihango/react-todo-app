@@ -31,6 +31,7 @@ function Header() {
           <NavLink to="/addProject">Add a Todos</NavLink>
           <button className='btn-logout' onClick={handleLogout}>Log Out</button>
         </div>
+        {/* This is the main header */}
       </nav>):(  <nav>     <div className="navbar-logo">
           <NavLink to="/">Todo </NavLink>
         </div> </nav> )}
